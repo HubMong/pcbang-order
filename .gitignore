@@ -1,0 +1,27 @@
+# 빌드/출력 폴더
+/target
+/bin
+/build
+
+# 이클립스 관련
+.project
+.classpath
+.settings/
+
+# IntelliJ 관련
+.idea/
+*.iml
+
+# 로그, 실행 파일, 패키지
+*.log
+*.jar
+*.war
+*.class
+
+# 운영체제
+.DS_Store
+Thumbs.db
+
+# 기타
+.mvn/
+*.db
