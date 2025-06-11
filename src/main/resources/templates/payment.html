@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>결제 방식 선택</title>
+</head>
+<body>
+  <h1>💳 결제 수단 선택</h1>
+  <form action="/payment/process" method="post">
+    <label><input type="radio" name="method" value="카카오페이" required> 카카오페이</label><br>
+    <label><input type="radio" name="method" value="카드"> 카드</label><br>
+    <label><input type="radio" name="method" value="현금"> 현금</label><br>
+    <button type="submit">결제하기</button>
+  </form>
+</body>
+</html>
